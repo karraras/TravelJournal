@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.f-13 {
+  font-size: 13px;
+}
+/* =========================Nav */
+div nav {
+  gap: 5px;
+  background-color: red;
+  color: white;
+}
+div nav i {
+  font-size: 20px;
+}
+div nav > p {
+  margin: 0px;
+}
+/* ==============================body */
+.page {
+  margin: 40px;
+  padding-top: 10px;
+}
+.my-box div {
+  padding-right: 0px !important;
+}
+.my-box div div i {
+  color: red;
+}
+.my-box div div span {
+  margin: 0px 15px 0px 5px;
+  text-transform: uppercase;
+}
+.my-box div h1 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.my-box div p:first-of-type {
+  font-weight: bold;
+}
